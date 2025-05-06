@@ -44,4 +44,4 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: lokeshkhadse/dockerpractice19:latest
+          tags: lokeshkhadse/dockerpractice19:0.0.2

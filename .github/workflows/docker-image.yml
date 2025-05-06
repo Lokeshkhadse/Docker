@@ -40,7 +40,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./DockerPractice
-          dockerfile: ./DockerPractice/Dockerfile
+          context: .
+          dockerfile: Dockerfile
           push: true
           tags: lokeshkhadse/dockerpractice19:latest

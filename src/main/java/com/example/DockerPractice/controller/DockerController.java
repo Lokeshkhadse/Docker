@@ -8,6 +8,6 @@ public class DockerController {
 
     @GetMapping("/getmsg")
     public String method(){
-        return "hii";
+        return "hii"; 
     }
 }
